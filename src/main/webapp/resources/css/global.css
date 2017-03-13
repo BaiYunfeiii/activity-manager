@@ -1,0 +1,6 @@
+.header{
+    background-color: #393D49;
+}
+.header .layui-nav-item{
+    height: 65px;
+}

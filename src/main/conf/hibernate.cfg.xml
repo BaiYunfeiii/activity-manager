@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+
+        <!-- 映射文件配置 -->
+
+        <mapping class="cn.cooode.activityTools.entity.User" />
+        <mapping class="cn.cooode.activityTools.entity.Activity"/>
+        <mapping class="cn.cooode.activityTools.entity.ActivityCheck"/>
+        <mapping class="cn.cooode.activityTools.entity.Category"/>
+        <mapping class="cn.cooode.activityTools.entity.Enroll"/>
+        <mapping class="cn.cooode.activityTools.entity.Score" />
+
+    </session-factory>
+
+</hibernate-configuration>
